@@ -30,4 +30,10 @@ Rails.application.routes.draw do
   patch "origins/:id" => "origins#update"
   delete "origins/:id" => "origins#destroy"
 
+  get "/ingredients" => "ingredients#index"
+  get "/ingredients/:id" => "ingredients#show"
+  post "/ingredients" => "ingredients#create"
+  patch "ingredients/:id" => "ingredients#update"
+  delete "ingredients/:id" => "ingredients#destroy"
+
 end
