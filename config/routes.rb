@@ -12,4 +12,9 @@ Rails.application.routes.draw do
   patch "galleys/:id" => "galleys#update"
   delete "galleys/:id" => "galleys#destroy"
 
+  get "/categories" => "categories#index"
+  get "/categories/:id" => "categories#show"
+  post "/categories" => "categories#create"
+  patch "categories/:id" => "categories#update"
+  delete "categories/:id" => "categories#destroy"
 end
