@@ -1,2 +1,7 @@
-json.extract! galley, :id, :created_at, :updated_at
-json.url galley_url(galley, format: :json)
+json.id galley.id
+json.crew_id galley.crew_id
+json.ingredient_id galley.name
+json.quantity galley.quantity
+
+
+
