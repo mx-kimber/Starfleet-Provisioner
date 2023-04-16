@@ -1,0 +1,2 @@
+class Galley < ApplicationRecord
+end

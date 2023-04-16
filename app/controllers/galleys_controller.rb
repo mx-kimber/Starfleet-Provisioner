@@ -1,0 +1,2 @@
+class GalleysController < ApplicationController
+end
